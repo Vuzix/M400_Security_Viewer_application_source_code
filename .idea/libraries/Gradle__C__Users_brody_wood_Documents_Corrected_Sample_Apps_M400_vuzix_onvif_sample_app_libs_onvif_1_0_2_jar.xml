@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: C./Users/brody_wood/Documents/Corrected Sample Apps/M400/vuzix-onvif-sample/app/libs/onvif-1.0.2.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/onvif-1.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (c) 2019, Vuzix Corporation
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+*  Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+
+*  Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+
+*  Neither the name of Vuzix Corporation nor the names of
+   its contributors may be used to endorse or promote products derived
+   from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clipChildren="false"
+    android:background="@color/blade_transparent"
+    tools:context=".HomeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/settings_manage_edit_header">
+
+        <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Hostname -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_settings_hostname" />
+
+            <TextView
+                android:id="@+id/tv_settings_manage_edit_hostname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:textColor="@color/blade_white"
+                android:textSize="18sp"
+                android:ems="10"/>
+
+            <!-- Nickname -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_settings_nickname" />
+
+            <TextView
+                android:id="@+id/tv_settings_manage_edit_nickname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:textColor="@color/blade_white"
+                android:textSize="18sp"
+                android:ems="10"/>
+
+            <!-- MAC Address -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_settings_mac" />
+
+            <TextView
+                android:id="@+id/tv_settings_manage_edit_mac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:textColor="@color/blade_white"
+                android:textSize="18sp"
+                android:ems="10"/>
+
+            <!-- Manufacturer -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_settings_manufacturer" />
+
+            <TextView
+                android:id="@+id/tv_settings_manage_edit_manufacturer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:textColor="@color/blade_white"
+                android:textSize="18sp"
+                android:ems="10"/>
+
+            <!-- Model -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_settings_model" />
+
+            <TextView
+                android:id="@+id/tv_settings_manage_edit_model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:textColor="@color/blade_white"
+                android:textSize="18sp"
+                android:ems="10"/>
+
+            <!-- Serial Number -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_settings_serial" />
+
+            <TextView
+                android:id="@+id/tv_settings_manage_edit_serial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:textColor="@color/blade_white"
+                android:textSize="18sp"
+                android:ems="10"/>
+
+            <!-- Firmware Version -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_settings_firmware" />
+
+            <TextView
+                android:id="@+id/tv_settings_manage_edit_firmware"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:textColor="@color/blade_white"
+                android:textSize="18sp"
+                android:ems="10"/>
+
+            <!-- Username -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_settings_username" />
+
+            <TextView
+                android:id="@+id/tv_settings_manage_edit_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:textColor="@color/blade_white"
+                android:textSize="18sp"
+                android:ems="10"/>
+
+            <!-- Password -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_settings_password" />
+
+            <TextView
+                android:id="@+id/tv_settings_manage_edit_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:textColor="@color/blade_white"
+                android:textSize="18sp"
+                android:ems="10"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/settings_manage_edit_header"
+        layout="@layout/layout_header" />
+</RelativeLayout>

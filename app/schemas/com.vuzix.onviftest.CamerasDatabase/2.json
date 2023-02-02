@@ -1,0 +1,100 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 2,
+    "identityHash": "280aa77ee2d86fc78fbe131a109befa6",
+    "entities": [
+      {
+        "tableName": "cameras",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`UID` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `macAddress` TEXT, `hostName` TEXT, `model` TEXT, `firmwareVersion` TEXT, `hardwareID` TEXT, `manufacturer` TEXT, `serialNumber` TEXT, `cameraNickname` TEXT, `username` TEXT, `password` TEXT, `available` INTEGER)",
+        "fields": [
+          {
+            "fieldPath": "UID",
+            "columnName": "UID",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "macAddress",
+            "columnName": "macAddress",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "hostName",
+            "columnName": "hostName",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "model",
+            "columnName": "model",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "firmwareVersion",
+            "columnName": "firmwareVersion",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "hardwareID",
+            "columnName": "hardwareID",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "manufacturer",
+            "columnName": "manufacturer",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "serialNumber",
+            "columnName": "serialNumber",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "cameraNickname",
+            "columnName": "cameraNickname",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "username",
+            "columnName": "username",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "password",
+            "columnName": "password",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "available",
+            "columnName": "available",
+            "affinity": "INTEGER",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "UID"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '280aa77ee2d86fc78fbe131a109befa6')"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.vuzix.onviftest"
+        minSdkVersion 22
+        targetSdkVersion 22
+        versionCode 4
+        versionName "1.0.4"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = ["room.schemaLocation": "$projectDir/schemas".toString()]
+            }
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.3.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.ramotion.cardslider:card-slider:0.3.1'
+
+    // Onvif Library Requires okhttp for Auth
+    implementation 'io.github.rburgst:okhttp-digest:2.0'
+    // VLC Library used to display video stream
+    implementation 'org.videolan.android:libvlc-all:3.1.12'
+
+    // Vuzix
+    implementation 'com.vuzix:hud-actionmenu:1.5'
+    implementation 'com.vuzix:sdk-speechrecognitionservice:1.91'
+
+    // Database
+    implementation 'androidx.room:room-runtime:2.3.0'
+    annotationProcessor 'androidx.room:room-compiler:2.3.0'
+}

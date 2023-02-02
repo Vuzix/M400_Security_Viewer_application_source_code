@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.vuzix:hud-actionmenu:1.5@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e33e46120b0e9887aab6d1e3a46d77de/hud-actionmenu-1.5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e33e46120b0e9887aab6d1e3a46d77de/hud-actionmenu-1.5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e33e46120b0e9887aab6d1e3a46d77de/hud-actionmenu-1.5/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/gradle-1.9/caches/transforms-2/files-2.1/e33e46120b0e9887aab6d1e3a46d77de/jetified-hud-actionmenu-1.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/gradle-1.9/caches/transforms-2/files-2.1/e33e46120b0e9887aab6d1e3a46d77de/jetified-hud-actionmenu-1.5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/gradle-1.9/caches/transforms-2/files-2.1/e33e46120b0e9887aab6d1e3a46d77de/jetified-hud-actionmenu-1.5/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/gradle-1.9/caches/modules-2/files-2.1/com.vuzix/hud-actionmenu/1.5/2788528b0a084f626717b1526c044bec4efde92a/hud-actionmenu-1.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
