@@ -7,12 +7,17 @@
       <root url="file://$USER_HOME$/gradle-1.9/caches/transforms-2/files-2.1/b0b1d9d9f5b7e8aeaf3c4e327fe9fc66/jetified-libvlc-all-3.1.12/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/gradle-1.9/caches/transforms-2/files-2.1/b0b1d9d9f5b7e8aeaf3c4e327fe9fc66/jetified-libvlc-all-3.1.12/res" />
       <root url="jar://$USER_HOME$/gradle-1.9/caches/transforms-2/files-2.1/b0b1d9d9f5b7e8aeaf3c4e327fe9fc66/jetified-libvlc-all-3.1.12/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b0b1d9d9f5b7e8aeaf3c4e327fe9fc66/jetified-libvlc-all-3.1.12/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b0b1d9d9f5b7e8aeaf3c4e327fe9fc66/jetified-libvlc-all-3.1.12/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b0b1d9d9f5b7e8aeaf3c4e327fe9fc66/jetified-libvlc-all-3.1.12/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/gradle-1.9/caches/modules-2/files-2.1/org.videolan.android/libvlc-all/3.1.12/280c847bd1f8ce10ccf222586a1dbf7a0c29fbf/libvlc-all-3.1.12-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.videolan.android/libvlc-all/3.1.12/280c847bd1f8ce10ccf222586a1dbf7a0c29fbf/libvlc-all-3.1.12-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/gradle-1.9/caches/modules-2/files-2.1/org.videolan.android/libvlc-all/3.1.12/7a3da64d2d9bdc74f50debb2e3f2e19ffe0c9f94/libvlc-all-3.1.12-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.videolan.android/libvlc-all/3.1.12/7a3da64d2d9bdc74f50debb2e3f2e19ffe0c9f94/libvlc-all-3.1.12-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

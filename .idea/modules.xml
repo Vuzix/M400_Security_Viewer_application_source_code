@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vuzix-onvif-sample.iml" filepath="$PROJECT_DIR$/.idea/modules/vuzix-onvif-sample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/vuzix-onvif-sample.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/vuzix-onvif-sample.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/M400_Security_Viewer_application_source_code.iml" filepath="$PROJECT_DIR$/.idea/modules/M400_Security_Viewer_application_source_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/M400_Security_Viewer_application_source_code.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/M400_Security_Viewer_application_source_code.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/M400_Security_Viewer_application_source_code.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/M400_Security_Viewer_application_source_code.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/M400_Security_Viewer_application_source_code.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/M400_Security_Viewer_application_source_code.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/M400_Security_Viewer_application_source_code.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/M400_Security_Viewer_application_source_code.app.unitTest.iml" />
     </modules>
   </component>
 </project>

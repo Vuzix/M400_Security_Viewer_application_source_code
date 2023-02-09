@@ -180,7 +180,7 @@ public class HomeActivity extends ActionMenuActivity {
     }
 
     /**
-     * Custom Class to allow the view to change on the dynamicly.
+     * Custom Class to allow the view to change dynamically.
      * Notice that we utilize this class on the actual MenuItem for its ActionView class.
      * This will allow us to access internal fields like icon to modify the action view itself.
      * For more information see the Class definition for DefaultActionMenuItemView and for
